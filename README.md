@@ -1,4 +1,4 @@
-# My Portfolio ![GitHub deployments](https://img.shields.io/github/deployments/deepsingh132/portfolio/production?label=build)
+# My Portfolio ![GitHub deployments](https://img.shields.io/github/deployments/deepsingh132/portfolio/production?label=build) [![Deploy to GitHub Pages](https://github.com/deepsingh132/deepsingh132.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/deepsingh132/deepsingh132.github.io/actions/workflows/deploy.yml)
 
 Welcome to my portfolio website! This project is built using React and Vite to showcase my skills, projects, and experiences in the world of web development.
 
