@@ -33,6 +33,16 @@ const Single = ({ item }: { item: Project }) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
+
+            {item.name === "aionair" && (
+              <img
+                src="https://raw.githubusercontent.com/deepsingh132/aionair/main/assets/screenshots/home.png"
+                style={{
+                  objectFit: "fill",
+                }}
+                alt="Ai SaaS Podcast Platform"
+              />
+            )}
             {item.name === "BooksBy" && (
               <img
                 src="https://github.com/deepsingh132/BooksBy/raw/main/Screenshots/desktophome.png"
@@ -72,6 +82,7 @@ const Single = ({ item }: { item: Project }) => {
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>
+              {item.name === "aionair" && "AI SaaS Podcast Platform"}
               {item.name === "BooksBy" && "E-comm Platform"}
               {item.name === "Artsphere" && "Next.js Twitter Plus"}
               {item.name === "CuChat" && "X-Platform Chat App"}
